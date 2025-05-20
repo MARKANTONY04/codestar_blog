@@ -12,5 +12,5 @@ class PostAdmin(SummernoteModelAdmin):
     summernote_fields = ('content',)
 
 
-# Register your models here.
+# Register your models here.reset virtual environment, added django summer package, and added a new post with the new package.
 admin.site.register(Comment)
