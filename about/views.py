@@ -14,7 +14,7 @@ def about_me(request):
         if collaborate_form.is_valid():
             collaborate_form.save()
             messages.add_message(request, messages.SUCCESS, "Collaboration request received! I endeavour to respond within 2 working days.")
-     """
+    """
     Renders the most recent information on the website author
     and allows user collaboration requests.
 
